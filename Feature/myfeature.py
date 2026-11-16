@@ -7,3 +7,4 @@ def greet(name: str = "world") -> str:
 	if not clean_name:
 		clean_name = "world"
 	return f"Hello, {clean_name}!"
+print(greet("Alice"))  # Output: Hello, Alice!
